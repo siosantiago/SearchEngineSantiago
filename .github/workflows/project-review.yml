@@ -1,0 +1,10 @@
+name: Project Review
+
+on:
+  pull_request_review:
+    types: [submitted, edited]
+
+jobs:
+  main:
+    name: 'Run'
+    uses: usf-cs272-fall2022/action-workflows/.github/workflows/project-review.yml@main

@@ -1,0 +1,12 @@
+# name used on workflows sidebar (should be specific and short)
+name: Project Label
+
+on:
+  issues:
+    types: [labeled, assigned]
+
+jobs:
+  main:
+    # first name used on summary sidebar (should be general and short)
+    name: 'Run'
+    uses: usf-cs272-fall2022/action-workflows/.github/workflows/project-labeled.yml@main

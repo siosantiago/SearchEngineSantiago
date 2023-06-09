@@ -1,0 +1,10 @@
+name: Project Issue
+
+on:
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  main:
+    name: 'Run'
+    uses: usf-cs272-fall2022/action-workflows/.github/workflows/project-issue.yml@main
