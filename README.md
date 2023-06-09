@@ -1,6 +1,5 @@
 Search Engine
 =================================================
 
-The project is broken into two separate GitHub repositories and Eclipse Java projects. This is the private individual repository for your project source code.
+This is a search engine that taught me advanced programming topics including inheritance and polymorphism, multi-threaded programming, networking, database programming, and web development. 
 
-Unlike the shared public tests repository, this repository is only accessible by you, the instructor, and the teacher assistants.
